@@ -1,3 +1,13 @@
+body,html{height:100%}
+dd,div,dl,dt,form,h1,h2,h3,h4,h5,h6,input,li,p,ul{padding:0;margin:0}
+button,input,select,textarea{outline:0;resize:none}
+img{vertical-align:top;border:0}
+li,ul{list-style:none;text-transform:capitalize}
+h1,h2,h3,h4,h5,h6,i,th{font-weight:400;font-style:normal}
+a{text-decoration:none;outline:0;color:#aaa;cursor:pointer}
+a.active,a:hover{text-decoration:none}
+
+
 #carousel{position:relative;z-index:2;height:250px;margin-top:20px;transform-style:preserve-3d;perspective:800px}
 #carousel img{position:absolute;left:50%;top:50%;width:504px;height:266px;margin-left:-252px;margin-top:-133px;transition:transform .5s ease-in-out;box-shadow:8px 8px 20px rgba(0,0,0,.2);cursor:pointer}
 #bannerNav{position:relative;margin-top:20px;height:10px;padding:10px 0;text-align:center}
